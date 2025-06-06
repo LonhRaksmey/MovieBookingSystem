@@ -2,8 +2,6 @@
 
 A console-based Java application for managing movie theater seat bookings with hall selection, seat reservation, and booking history tracking.
 
-![System Screenshot](https://via.placeholder.com/800x400.png?text=Movie+Booking+System+Screenshot) *(placeholder - add actual screenshot later)*
-
 ## Features ✨
 
 - **Multi-hall Support**: Manage bookings across different showtimes (Morning, Evening, Tonight)
@@ -36,3 +34,14 @@ A console-based Java application for managing movie theater seat bookings with h
    ```bash
    javac Movie.java
    java Movie
+
+
+## Code Structure 📂
+Movie.java
+└───main()
+    ├───welcome() - Displays welcome banner
+    ├───colIndexToLetter() - Helper for column display
+    ├───Seat management arrays
+    ├───Booking history arrays
+    └───Main menu loop with switch-case
+
